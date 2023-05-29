@@ -75,13 +75,8 @@ ul{
     font-family: 'Dancing Script', cursive;
     color: red;
 }
-.carrousel{
-    display: flex;
-    justify-content: center;
-}
 .carrousel img{
-    width: 80%;
-    height: 700px;
+    height: 70vh;
 }
 .imagenes{
     display: grid;
