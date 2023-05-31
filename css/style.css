@@ -34,19 +34,41 @@
     text-align: center;
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
-    color: wheat;
+    color: #f5deb3;
     margin: 20px;
 }
 /* HEADER -------------------------------------------------------------------*/
+.Encabezado div img{
+    width: 200px;
+    height: auto;
+    @media (max-width: 991px) {
+        width: 130px;
+    }
+    @media (max-width: 767px) {
+        width: 110px;
+    }
+    @media (max-width: 575px) {
+        width: 100px;
+    }
+
+}
+.Dsilvia {
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    color: red;
+    @media (max-width: 991px) {
+        font-size: 70px
+    }
+    @media (max-width: 767px) {
+        font-size: 65px
+    }
+    @media (max-width: 575px) {
+        font-size: 50px
+    }
+}
 .Encabezado{
     margin-bottom: 40px;
 }
-.Encabezado .links ul{
-    display: flex;
-    margin: 40px;
-    justify-content: space-around;
-    align-content: center;
-} 
 .Encabezado .links ul li{
     list-style: none;
 }
@@ -55,42 +77,30 @@
     text-decoration: none;
     padding: 20px 30px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
+    @media (max-width: 1200px) {
+        font-size: 15px
+    }
+    @media (max-width: 992px) {
+        font-size: 25px;
+        padding: 2px 5px;
+        border-radius: 20px;
+    }
 }
-.Encabezado .Encabezado__titulologo{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
+.d{
+    @media (max-width: 992px) {
+        display: none;
+    }
 }
-.Encabezado .Encabezado__titulologo .grid-item.one{
-    grid-column: 1/2;
-}
-.Encabezado .Encabezado__titulologo .grid-item.two{
-    grid-column: 2/5;
-}
-.Encabezado div img{
-    width: 200px;
-    height: auto;
-}
-.Encabezado .grid-item.two {
-    font-size: 100px;
-    font-family: 'Dancing Script', cursive;
-    color: red;
+.n{
+    @media (min-width: 992px) {
+        display: none;
+    } 
 }
 
+
 /* section ------------------------------------------------------------ */
-/* .imagenes{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    
-} */
-/* .imagenes img{
-    width: 10rem;
-    height: auto;
-} */
 .p{
     font-size: 26px;
 }
@@ -109,14 +119,13 @@
     width: 90vh;
     height: 50vh;
 }
-.Pie .mapa h3{
+.letra{
     font-family: 'Dancing Script';
     font-weight: normal;
     color: wheat;
     text-align: center;
     font-size: 30px;
 }
-
 .Pie .redes{
     width: 90vh;
     height: 50vh;
