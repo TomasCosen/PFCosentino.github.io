@@ -7,27 +7,22 @@
 
 /* imagenes de fondo ------------------------------------------------------------- */
 #frutosSecos{
-    background-image: url(../img/ia/vertical/Tomas_Cosentino_MACRO_OF_DRY_NUTS_FOOD_PHOTGRAPHY_aerial_view_2dbac93d-6555-4d2b-a814-5b23bec05037.png);
+    background-image: url(../img/ia/vertical/tomas-cosentino-macronutrients.png);
     background-size:cover; 
     background-repeat: no-repeat;
 }
 #Alimentos{
-    background-image: url(../img/ia/vertical/Tomas_Cosentino_Delicious_Empanadas_close_up_shot._sony_alpha_a_19e0273d-9fe6-4670-bb4c-da671c8398f1.png);
+    background-image: url(../img/ia/vertical/tomas_cosentino_delicious_empanadas_close_up_shot._sony_alpha_a.png);
     background-size:cover; 
     background-repeat: no-repeat;
 }
 #Suplementos{
-    background-image: url(../img/ia/vertical/Tomas_Cosentino_Supplements_powders_pills_sachets_dark_green_co_1407dd34-2e67-45fb-a4dd-67597068eb52.png);
+    background-image: url(../img/ia/vertical/tomas_cosentino_supplements_powders_pills_sachets_dark_green.png);
     background-size:cover; 
     background-repeat: no-repeat;
 }
 #Despensa{
-    background-image: url(../img/ia/vertical/Background_image_natural_food\ legums.png);
-    background-size:cover; 
-    background-repeat: no-repeat;
-}
-#Contacto{
-    background-image: url(../img/ia/vertical/Tomas_Cosentino_MACRO_OF_DRY_NUTS_FOOD_PHOTGRAPHY_aerial_view_2dbac93d-6555-4d2b-a814-5b23bec05037.png);
+    background-image: url(../img/ia/vertical/background_image_natural_food-legums.png);
     background-size:cover; 
     background-repeat: no-repeat;
 }
@@ -93,12 +88,7 @@
 } 
 
 /* formulario -------------------------------------------------------------- */
-#Form{
-    margin: 30px;
-}
-#Form .formulario label{
-    font-size: 30px;
-}
+
 
 /* media queries------------------------------------------------------------ */
 @media (max-width: 1200px) {
