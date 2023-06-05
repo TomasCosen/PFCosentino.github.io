@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: 0;
 }
+
 /* imagenes de fondo ------------------------------------------------------------- */
 #frutosSecos{
     background-image: url(../img/ia/vertical/Tomas_Cosentino_MACRO_OF_DRY_NUTS_FOOD_PHOTGRAPHY_aerial_view_2dbac93d-6555-4d2b-a814-5b23bec05037.png);
@@ -32,27 +33,22 @@
 }
 .bg-propio{
     background-color: #c96426;
-    margin: 20px;
+    margin: 2rem;
 }
 
-.titulos {
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Dancing Script', cursive;
-    color: #f5deb3;
-    margin: 20px;
-}
+
+
 
 
 /* HEADER -------------------------------------------------------------------*/
 
 .Dsilvia {
-    font-size: 100px;
+    font-size: 5rem;
     font-family: 'Dancing Script', cursive;
     color: red;
 }
 .Encabezado{
-    margin-bottom: 40px;
+    margin-bottom: 2.2rem;
 }
 .Encabezado .links ul li{
     list-style: none;
@@ -60,10 +56,24 @@
 .Encabezado .links ul li a{
     background-color: #f5deb3;
     text-decoration: none;
-    padding: 20px 30px;
-    border-radius: 20px;
-    font-size: 25px;
+    padding: 1rem 1.5rem;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
     color: black;
+}
+/* main ------------------------------------------------------------------ */
+.titulos {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Dancing Script', cursive;
+    color: #f5deb3;
+    margin: 1.2rem;
+
+}
+.catalogo img{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 3rem; 
 }
 
 /* footer ---------------------------------------------------------------- */
@@ -73,15 +83,16 @@
     font-weight: normal;
     color: wheat;
     text-align: center;
-    font-size: 35px;
+    font-size: 2rem;
 }
 .Pie .redes a img{
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .p{
-    font-size: 26px;
+    font-size: 1.5rem;
 } 
+
 /* formulario -------------------------------------------------------------- */
 #Form{
     margin: 30px;
@@ -93,60 +104,60 @@
 /* media queries------------------------------------------------------------ */
 @media (max-width: 1200px) {
     .Encabezado .links ul li a{
-        font-size: 15px
+        font-size: 1rem;
     }
     .Dsilvia{
-        font-size: 80px;
+        font-size: 5rem;
     }
     .p{
-        font-size: 24px;
+        font-size: 1.5rem;
     } 
     
 }
 @media (max-width: 991px) {
     .Dsilvia{
-        font-size: 70px
+        font-size: 4rem;
     }
     .Encabezado .links ul li a{
-        font-size: 25px;
-        padding: 2px 5px;
-        border-radius: 20px;
+        font-size: 1.5rem;
+        padding: 0.2rem 0.4rem;
+        border-radius: 1.2rem;
     }
     .d{
         display: none;
     }
     .p{
-        font-size: 20px;
+        font-size: 1.1rem;
     }
-    
 }
-@media (min-width: 992px) {
-    .n{
-        display: none;
-    }
-    
-} 
-
 @media (max-width: 767px) {
     .Dsilvia{
-        font-size: 65px
+        font-size: 4rem;
     }
     .Pie .logo_footer img{
         display: none;
     }
-    
-    
-}
-
-@media (max-width: 575px) {
-    .Pie .redes h3 {
-        font-size: 20px;
+    .catalogo_d{
+        display: none;
     }
+}
+@media (max-width: 575px) {
     .p{
-        font-size: 17px;
+        font-size: 1.2rem;
     }
     .Dsilvia{
         display: none;
     }
-    
+}
+@media (max-width: 376px) {
+    .letra{
+        font-size: 1.5rem;
+    }
+    .Pie .redes a img{
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+    p {
+        margin-bottom: 0.5rem !important; 
+    }
 }
