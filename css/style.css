@@ -36,10 +36,6 @@
     margin: 2rem;
 }
 
-
-
-
-
 /* HEADER -------------------------------------------------------------------*/
 
 .Dsilvia {
@@ -60,6 +56,9 @@
     border-radius: 0.8rem;
     font-size: 1.5rem;
     color: black;
+}
+.Encabezado .links ul li a:hover{
+    background-color: white ;
 }
 /* main ------------------------------------------------------------------ */
 .titulos {
