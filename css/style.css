@@ -92,6 +92,12 @@
 .tamano label{
     margin-left: 1rem;
 }
+.tamano .btn-propio{
+    background-color:#f5deb3 !important;
+}
+.tamano .btn-propio1{
+    background-color: blue !important;
+}
 
 /* media queries------------------------------------------------------------ */
 @media (max-width: 1200px) {
