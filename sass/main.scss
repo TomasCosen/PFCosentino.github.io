@@ -191,17 +191,22 @@
       display: none;
     }
   }
-  
+  @media (min-width: 575px) {
+    .ap{
+      display : none;
+    }
+  }
   @media (max-width: 575px) {
     .p {
       font-size: 1.2rem;
     }
-  
+    .dis{
+      display: none;
+    }
     .Dsilvia {
       display: none;
     }
   }
-  
   @media (max-width: 376px) {
     .letra {
       font-size: 1.5rem;
@@ -217,7 +222,6 @@
         }
       }
     }
-  
     p {
       margin-bottom: 0.5rem !important;
     }
