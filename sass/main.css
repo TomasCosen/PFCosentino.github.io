@@ -75,6 +75,17 @@
   padding-bottom: 3rem;
 }
 
+/* formulario -------------------------------------------------------------- */
+.tamano label {
+  margin-left: 1rem;
+}
+.tamano .btn-propio {
+  background-color: #f5deb3 !important;
+}
+.tamano .btn-propio1 {
+  background-color: blue !important;
+}
+
 /* footer ---------------------------------------------------------------- */
 .letra {
   font-family: "Dancing Script";
@@ -91,17 +102,6 @@
 
 .p {
   font-size: 1.5rem;
-}
-
-/* formulario -------------------------------------------------------------- */
-.tamano label {
-  margin-left: 1rem;
-}
-.tamano .btn-propio {
-  background-color: #f5deb3 !important;
-}
-.tamano .btn-propio1 {
-  background-color: blue !important;
 }
 
 /* media queries------------------------------------------------------------ */
@@ -170,4 +170,24 @@
   p {
     margin-bottom: 0.5rem !important;
   }
+}
+/* Transformaciones -------------------------------------------------------------- */
+.scalex50 {
+  transform: scale(1);
+  transition: all 800ms;
+}
+
+.scalex50:hover {
+  transform: scale(1.5);
+  z-index: 2;
+}
+
+.scalex30 {
+  transform: scale(1);
+  transition: all 800ms;
+}
+
+.scalex30:hover {
+  transform: scale(1.3);
+  z-index: 2;
 }/*# sourceMappingURL=main.css.map */

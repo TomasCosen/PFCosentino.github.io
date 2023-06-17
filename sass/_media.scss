@@ -1,0 +1,103 @@
+/* media queries------------------------------------------------------------ */
+@media (max-width: 1200px) {
+    .Encabezado {
+      .links {
+        ul {
+          li {
+            a {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  
+    .Dsilvia {
+      font-size: 5rem;
+    }
+  
+    .p {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .Dsilvia {
+      font-size: 4rem;
+    }
+  
+    .Encabezado {
+      .links {
+        ul {
+          li {
+            a {
+              font-size: 1.5rem;
+              padding: 0.2rem 0.4rem;
+              border-radius: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  
+    .d {
+      display: none;
+    }
+  
+    .p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .Dsilvia {
+      font-size: 4rem;
+    }
+  
+    .Pie {
+      .logo_footer {
+        img {
+          display: none;
+        }
+      }
+    }
+  
+    .catalogo_d {
+      display: none;
+    }
+  }
+  @media (min-width: 575px) {
+    .ap{
+      display : none;
+    }
+  }
+  @media (max-width: 575px) {
+    .p {
+      font-size: 1.2rem;
+    }
+    .dis{
+      display: none;
+    }
+    .Dsilvia {
+      display: none;
+    }
+  }
+  @media (max-width: 376px) {
+    .letra {
+      font-size: 1.5rem;
+    }
+  
+    .Pie {
+      .redes {
+        a {
+          img {
+            width: 1.9rem;
+            height: 1.9rem;
+          }
+        }
+      }
+    }
+    p {
+      margin-bottom: 0.5rem !important;
+    }
+  }
