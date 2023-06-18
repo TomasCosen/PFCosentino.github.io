@@ -1,17 +1,15 @@
 /* Transformaciones -------------------------------------------------------------- */
 .scalex50{
-    transform: scale(1);
-    transition: all 800ms;
+    @include transfor;
   }
-  .scalex50:hover{
+.scalex50:hover{
     transform: scale(1.5);
     z-index: 2;
   }
-  .scalex30{
-    transform: scale(1);
-    transition: all 800ms;
+.scalex30{
+    @include transfor;
   }
-  .scalex30:hover{
+.scalex30:hover{
     transform: scale(1.3);
     z-index: 2;
   }

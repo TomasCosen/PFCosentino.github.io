@@ -1,2 +1,51 @@
 $colorPrincipal: #c96426;
 $colorSecundario: #f5deb3;
+$textos: black;
+$tituloPrincipal: red;
+$formcheck: blue;
+
+@mixin reset{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+@mixin imgbg{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin tituloPinc{
+    font-size: 5rem;
+    font-family: 'Dancing Script', cursive;
+    color: $tituloPrincipal;
+}
+@mixin enlaces{
+    background-color: $colorSecundario;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+    color: $textos;
+}
+@mixin titulos{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Dancing Script', cursive;
+    color: #f5deb3;
+    margin: 1.2rem;
+}
+@mixin catalogImg{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 3rem;
+}
+@mixin letra{
+    font-family: "Dancing Script";
+    font-weight: normal;
+    color: #f5deb3;
+    text-align: center;
+    font-size: 2rem;
+}
+@mixin transfor{
+    transform: scale(1);
+    transition: all 800ms;
+}
