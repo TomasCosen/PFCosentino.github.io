@@ -16,7 +16,7 @@
             @include enlaces;
   
             &:hover {
-              background-color: white;
+              background-color: $colorBlanco;
             }
           }
         }
